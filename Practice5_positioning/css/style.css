@@ -1,0 +1,95 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto+Slab');
+
+.page {
+	width: 1340px;
+	height: 1200px;
+	position: relative;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+
+section {
+	width: 400px;
+	height: 800px;
+	border: 1px solid green;
+	box-sizing: border-box;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 20px;
+}
+
+.headerContainer {
+	width: 1340px;
+	height: 300px;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	background-image: url(http://libbyvision.com/wp-content/uploads/2017/04/food_photography_palm_beach_gardens_florida_parched_pig.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	position: fixed;
+	z-index: 1;
+}
+
+.heading {
+	margin: 110px 450px;
+	font-size: 35px;
+}
+
+.sectionHeader {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.mainText, li {
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+ol li {
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+ul li {
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+.left {
+	position: absolute;
+	top: 320px;
+	left: 40px;
+}
+
+.middle {
+	position: absolute;
+	top: 320px;
+	left: 460px;
+}
+
+.right {
+	position: absolute;
+	top: 320px;
+	left: 880px;
+}
+
+
+.footerContainer {
+	width: 1340px;
+	height: 50px;
+	background-color: rgb(0, 128, 32);
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	/*почему-то, если использовать bottom=0, 
+	прижимается не к низу страницы, а к низу окна :(*/
+	top: 1150px;
+}
