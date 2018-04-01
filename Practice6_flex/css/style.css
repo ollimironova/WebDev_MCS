@@ -1,0 +1,133 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Kaushan+Script|Quicksand');
+
+.page {
+	background-color: rgba(255, 245, 230, .2);
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
+}
+
+.mainText {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+
+.heading {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #00cc66;
+	color: white;
+	font-size: 16px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+a {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.pictureContainer {
+	height: 300px;
+	display: flex;
+	background-image: url(../img/pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #239023;
+	text-shadow: 1px 1px 5px white;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: normal;
+	font-size: 50px;
+}
+
+.pictureContainer h2 {
+	margin: auto;
+}
+
+.description {
+	box-shadow: 1px 1px 5px #00cc66;
+	background-color: white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 25px 50px;
+	padding: 20px;	
+}
+
+h3 {
+	font-size: 25px;
+	color: #17c09b;
+}
+
+.logos {
+	display: flex;
+	margin: 20px 70px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.logo1, .logo2, .logo3 {
+	margin: auto;
+}
+
+.logoText {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #17c09b;
+	text-align: center;
+}
+
+.quote {
+	box-shadow: 1px 1px 5px #00cc66;
+	background-color: white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 50px 110px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.photo {
+	width: 180px;
+	height: 180px;
+	margin: 10px;
+	flex-shrink: 0; 
+	background-image: url(../img/photo.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.quoteText {
+	margin: auto;
+}
+
+.footer {
+	height: 50px;
+	background-color: #00cc66;
+	box-sizing: border-box;
+	padding-top: 15px;
+	padding-left: 20px;
+	color: white;
+	font-size: 20px;
+}
