@@ -23,11 +23,10 @@ section {
 }
 
 .headerContainer {
-	width: 100%; /* зачем? попробуй написать 100%*/
+	width: 100%; 
 	height: 300px;
 	border: 1px solid transparent;
 	box-sizing: border-box;
-	/*лучше сохраняйте картинки на компе, так лучше */
 	background-image: url(../img/pic.jpg);
 	background-size: cover;
 	background-position: center;
@@ -46,7 +45,7 @@ section {
 
 .outer {
 	font-size: 0;
-	/*margin: auto;*/
+	margin: 300px 10px 10px;
 }
 
 .sectionHeader {
@@ -73,14 +72,12 @@ ul li {
 /* видимо не принципиально было обнулять отступы, но призываю помнить о них, что они появляются при display: inline-block; и часто путают все рассчеты */
 
 .left, .middle, .right {
-	margin-top: 320px;
-	margin-left: 30px;
-	margin-bottom: 20px;
+	margin: 15px;
 }
 
 
 .footerContainer {
-	width: 1340px;
+	width: 100%; 
 	height: 50px;
 	background-color: rgb(0, 128, 32);
 	box-sizing: border-box;
@@ -88,10 +85,4 @@ ul li {
 	padding-left: 20px;
 	color: white;
 	font-size: 16px;
-	/*position: absolute;
-	почему-то, если использовать bottom=0, 
-	прижимается не к низу страницы, а к низу окна :(
-	top: 1150px;*/
-
-	/* ты пыталась позиционировать footerContainer а не footer. А родитель relative у footer. Соответственно footerContainer вырвался из потока в контекст окна*/
 }
