@@ -38,14 +38,14 @@ section {
 }
 
 .heading {
-	margin-top: 110px; /* если хотелось горизонтального центра, отлично бы подошел text-align*/
+	margin-top: 110px; 
 	text-align: center;
 	font-size: 35px;
 }
 
 .outer {
 	font-size: 0;
-	margin: 300px 10px 10px;
+	margin: 300px 10px 10px; /* вот тут давай сделаем margin auto и зададим ширину? */
 }
 
 .sectionHeader {
@@ -69,7 +69,6 @@ ul li {
 }
 
 /* почему бы не сделать контейнер-хранилище колонок и не вписать туда margin: auto;, чтоб все стало по центру, вместо всей этой сложной математики с margin? */
-/* видимо не принципиально было обнулять отступы, но призываю помнить о них, что они появляются при display: inline-block; и часто путают все рассчеты */
 
 .left, .middle, .right {
 	margin: 15px;

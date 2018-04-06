@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
 }
 
 .heading {
-	height: 50px;
+	height: 50px; /* попробуй теперь min-height, мы его прошли и flex-wrap: wrap; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -82,7 +82,7 @@ h3 {
 }
 
 .logo1, .logo2, .logo3 {
-	margin: auto;
+	margin: auto; 
 }
 
 .logoText {
@@ -104,7 +104,7 @@ h3 {
 	padding: 10px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: center; /* сделай flex-wrap: wrap; там фиксированный размер у картинки, плохо становится при сжатии экрана */
 }
 
 .photo {
