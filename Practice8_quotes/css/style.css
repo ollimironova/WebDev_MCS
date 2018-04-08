@@ -1,0 +1,112 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Alegreya|EB+Garamond');
+
+.page {
+	background-image: url(../img/pic.jpg);
+	background-position: center;
+	background-size: cover;	
+}
+ h1, h2, h3 {
+ 	font-weight: bold;
+ }
+.heading {
+	min-height: 50px; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: rgba(0, 51, 26, .8);
+	color: white;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.7em;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.columns {
+	width: 75vw;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+	flex-wrap: wrap;
+	font-family: 'Alegreya', serif;
+}
+
+.column {
+	min-height: 300px;
+	width: calc((100% - 110px)/3);
+	background-color: rgba(217, 217, 217, .4);
+	border-radius: 5px;
+}
+
+.quote {
+	margin: 10px;
+}
+
+.image {
+	padding-bottom: 100%;
+}
+
+.image.one {
+	background-image: url(../img/sam.jpg);
+	background-position: center;
+	background-size: cover;	
+	transition-duration: 1s;
+	transition-delay: 0.5s;
+}
+
+.image.two {
+	background-image: url(../img/gandalf.jpg);
+	background-position: center;
+	background-size: cover;	
+	transition-duration: 1s;
+	transition-delay: 0.5s;
+}
+
+.image.three {
+	background-image: url(../img/eowyn.jpg);
+	background-position: center;
+	background-size: cover;	
+	transition-duration: 1s;
+	transition-delay: 0.5s;
+}
+
+.image.one:hover {
+	background-image: url(../img/sam2.jpg);
+}
+.image.two:hover {
+	background-image: url(../img/gandalf2.jpg);
+}
+.image.three:hover {
+	background-image: url(../img/eowyn2.jpg);
+}
+
+.menu a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1rem;
+	color: white;
+}
+
+.column h2 {
+	font-size: 1.4em;
+	line-height: 30px;
+	text-align: center;
+}
+
+.column p {
+	font-size: 1.2em;
+
+}
+.footer {
+	height: 50px;
+	background-color: rgba(0, 51, 26, .8);
+	box-sizing: border-box;
+	padding-top: 15px;
+	padding-left: 20px;
+	color: white;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.2em;
+}
