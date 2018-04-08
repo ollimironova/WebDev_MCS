@@ -16,10 +16,11 @@ h1, h2, h3, h4 {
 }
 
 .heading {
-	height: 50px; /* попробуй теперь min-height, мы его прошли и flex-wrap: wrap; */
+	min-height: 50px; /* попробуй теперь min-height, мы его прошли и flex-wrap: wrap; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 	background-color: #00cc66;
 	color: white;
 	font-size: 16px;
@@ -104,7 +105,8 @@ h3 {
 	padding: 10px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center; /* сделай flex-wrap: wrap; там фиксированный размер у картинки, плохо становится при сжатии экрана */
+	align-items: center;
+	/*flex-wrap: wrap;  сделай flex-wrap: wrap; там фиксированный размер у картинки, плохо становится при сжатии экрана */
 }
 
 .photo {

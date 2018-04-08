@@ -1,11 +1,6 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Lora|Roboto+Slab');
 
-/*.page {
-	width: 1340px; /*зачем? почему не делать во всю ширину страницы? если это задумка, почему не сделать по центру при помощи margin: auto;*/
-	/*position: relative; зачем? футер хотела позиционировать?
-} */
-
 h1, h2, h3, h4 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
@@ -45,7 +40,8 @@ section {
 
 .outer {
 	font-size: 0;
-	margin: 300px 10px 10px; /* вот тут давай сделаем margin auto и зададим ширину? */
+	width: 95vw;
+	margin: 300px auto 10px; /* вот тут давай сделаем margin auto и зададим ширину? */
 }
 
 .sectionHeader {
@@ -68,10 +64,9 @@ ul li {
 	list-style-position: inside;
 }
 
-/* почему бы не сделать контейнер-хранилище колонок и не вписать туда margin: auto;, чтоб все стало по центру, вместо всей этой сложной математики с margin? */
 
 .left, .middle, .right {
-	margin: 15px;
+	margin: 10px;
 }
 
 
