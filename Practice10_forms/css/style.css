@@ -1,0 +1,99 @@
+@import url(reset.css);
+
+.page {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0;
+}
+
+form {
+	width: 90%;
+	margin: 10px auto;
+}
+
+fieldset {
+	margin-top: 10px;
+}
+
+
+h2 {
+	font-size: 18px;
+}
+
+input, select, textarea {
+	display: block;
+	width: 90%;
+	font-size: 18px;
+}
+
+.heading {
+	min-height: 75px;
+	background-image: url(../img/pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding: 25px;
+}
+
+.personalInfo {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.gender {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.options {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+label, span {
+	line-height: 2rem;
+	font-size: 18px;
+	display: inline-block;
+	width: 80%;
+}
+
+input {
+	height: 25px;
+}
+
+input:focus, select:focus, textarea:focus {
+	outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	width: 10%;
+	height: 15px;
+	display: inline-block;
+	vertical-align: center;
+}
+
+.gender span {
+	width: 80px;
+}
+
+.options span {
+	width: calc((80% - 40px)/2);
+}
+
+textarea {
+	height: 150px;
+}
+
+input[type="submit"]:hover {
+	background-color: pink;
+}

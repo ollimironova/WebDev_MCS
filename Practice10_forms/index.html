@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Questionnaire</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta description="boilerplate code">
+	<meta keywords="boilerplate, test">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<header class="heading">
+			<div class="headerContainer">
+				<h1>АНКЕТА</h1>
+			</div>
+		</header>
+		<form method="POST" action="http://free.allforms.mailjol.net/u/34294670.php">
+			<fieldset class="personalInfo">
+				<label for="fullName">Полное имя</label>
+				<input type="text" name="fullName" placeholder="Джон Смит">
+				<label for="birth">Дата рождения</label>
+				<input type="date" name="birth">
+				<div class="gender">
+					<input type="radio" value="male" name="gender"> <span>Мужчина</span>
+					<input type="radio" value="female" name="gender"> <span>Женщина</span>
+				</div>
+				<label for="region">Где ты живешь?</label>
+				<select name="region">
+					<option value="Russia">Россия</option>
+					<option value="CIS">СНГ</option>
+					<option value="USA">США</option>
+					<option value="EU">Европа</option>
+					<option value="Asia">Азия</option>
+				</select>
+			</fieldset>
+			<fieldset class="facts">
+				<h2>Отметь факты, которые описывают тебя</h2>
+				<input type="checkbox"> <span>Я надеваю брюки по одной штанине за раз</span>
+				<input type="checkbox"> <span>Я никогда не упущу возможность выпить пинту на День Святого Патрика</span>
+				<input type="checkbox"> <span>Я лучше посмотрю мир, чем куплю большой дом</span>
+				<input type="checkbox"> <span>Я домосед и к старости хочу 40 котов</span>
+				<input type="checkbox"> <span>Я пою в душе, как про</span>
+				<input type="checkbox"> <span>Я офисный планктон и хожу по пятницам в бар</span>
+			</fieldset>
+			<fieldset class="choose">
+				<h2>Выбери один из двух вариантов</h2>
+				<div class="options">
+					<input type="radio" value="cats" name="pets"> <span>Кошки</span>
+					<input type="radio" value="dogs" name="pets"> <span>Собаки</span>
+					<input type="radio" value="beer" name="drinks"> <span>Пиво</span>
+					<input type="radio" value="wine" name="drinks"> <span>Вино</span>
+					<input type="radio" value="movies" name="watch"> <span>Фильмы</span>
+					<input type="radio" value="series" name="watch"> <span>Сериалы</span>
+					<input type="radio" value="shoes" name="shoes"> <span>Туфли</span>
+					<input type="radio" value="sneakers" name="shoes"> <span>Кеды</span>
+				</div>
+			</fieldset>
+			<fieldset class="message">
+				<label for="message">Какой совет ты бы дал себе 12-ти летнему?</label>
+				<textarea name="message" placeholder="Ответ пиши здесь"></textarea>
+			</fieldset>
+			<fieldset class="submit">
+				<input type="submit">
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
